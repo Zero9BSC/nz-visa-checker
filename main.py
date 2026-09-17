@@ -30,4 +30,5 @@ def check_visa():
         sys.exit(0)
 
 if __name__ == "__main__":
+    send_telegram_alert("🧪 Test de conectividad: El bot funciona bien.")
     check_visa()
